@@ -1,5 +1,7 @@
 # d'Anthès [![Build Status](https://secure.travis-ci.org/dotpromo/danthes.png?branch=master)](http://travis-ci.org/dotpromo/danthes)[![Code Climate](https://codeclimate.com/github/dotpromo/danthes.png)](https://codeclimate.com/github/dotpromo/danthes)[![Coverage Status](https://coveralls.io/repos/dotpromo/danthes/badge.png?branch=master)](https://coveralls.io/r/dotpromo/danthes)
 
+This is a fork of [d'Anthès](https://github.com/amoniacou/danthes).
+
 d'Anthès is a Ruby gem for use with Rails to publish and subscribe to messages through [Faye](http://faye.jcoglan.com/). It allows you to easily provide real-time updates through an open socket without tying up a Rails process. All channels are private so users can only listen to events you subscribe them to. Based on PrivatePub gem.
 
 ## Docs
@@ -13,7 +15,7 @@ d'Anthès is a Ruby gem for use with Rails to publish and subscribe to messages 
 Add the gem to your Gemfile and run the `bundle` command to install it.
 
 ```ruby
-gem 'danthes'
+gem 'edmond-danthes'
 ```
 
 Run the generator to create the initial files.
